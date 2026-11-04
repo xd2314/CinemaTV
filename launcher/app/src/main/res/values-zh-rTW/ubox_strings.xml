@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ubox_home">首頁</string>
+    <string name="ubox_all_apps">所有 App</string>
+    <string name="ubox_network">網路</string>
+    <string name="ubox_movies">影音點播</string>
+    <string name="ubox_apps">影音應用</string>
+    <string name="ubox_live_description">你熟悉的電視頻道，直接進入。</string>
+    <string name="ubox_movies_description">開啟點播應用，選擇想看的節目。</string>
+    <string name="ubox_app_description">開啟喜愛的應用。</string>
+    <string name="ubox_hint">OK 開啟     ↓ 更多 App     Home 返回原廠</string>
+</resources>

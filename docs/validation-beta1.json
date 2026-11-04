@@ -1,0 +1,58 @@
+{
+  "sourceVersion": "7.0.0-beta.1",
+  "versionCode": 72,
+  "tests": {
+    "tests": 960,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 163,
+    "Information": 129
+  },
+  "releaseApk": {
+    "state": "SIGNED_BETA_ORIGINAL_CERTIFICATE",
+    "size": 3186870,
+    "sha256": "94e4b91e1e03cb6d7cbac6c582aa072219c091392491747313a32dccaaa8b1d0",
+    "certificateSha256": "e698b07fba7c263d9b92218b75262407f6874c3886146794395c5daad1345046"
+  },
+  "permissionsUnchanged": true,
+  "noInternetPermission": true,
+  "deviceInstall": "ONE_ORDINARY_UPDATE_SUCCEEDED",
+  "deviceSmoke": "NAVIGATION_PASS_PO_VISUAL_FAIL",
+  "deviceChanges": "OWN_PACKAGE_71_TO_72_ONLY; HOME/UID/GRANTS/OEM/BOOT_ID_RETAINED",
+  "publicDeviceTest": "PENDING_PO",
+  "freshPathBuild": {
+    "state": "PASS",
+    "tests": {
+      "tests": 960,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "lint": {
+      "Warning": 163,
+      "Information": 129
+    },
+    "signedApkPayloadMatchesCleanUnsignedBuild": true,
+    "payloadEntriesCompared": 92,
+    "scope": "All APK entries outside META-INF, including DEX, resources, assets and AndroidManifest; no private key needed in clean build"
+  },
+  "publicationTests": {
+    "tests": 9,
+    "failures": 0,
+    "errors": 0
+  },
+  "githubCI": "NOT_RUN",
+  "remotePublication": "NOT_PERFORMED",
+  "previousSourceRecord": "validation-oss1.json",
+  "machineObservation": {
+    "homeResolverRetained": true,
+    "newAnrObserved": false,
+    "runtimeErrorLogEmpty": true,
+    "scope": "Readonly observation; does not replace physical remote/app acceptance"
+  },
+  "distribution": "NO_GO_VISUAL_APPEARANCE_REJECTED",
+  "fourAppSmoke": "NOT_STARTED_PAUSED_FOR_ORIGINAL_ART"
+}

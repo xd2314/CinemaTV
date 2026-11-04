@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<bool name="cinema_lite">true</bool>
+<string name="cinema_app_label" translatable="false">Cinema TV Beta</string>
+<string name="cinema_title">Cinema TV</string>
+<string name="cinema_recent">最近使用</string>
+<string name="cinema_empty">從首頁開啟的應用程式會顯示於此</string>
+<string name="cinema_search">搜尋應用程式</string>
+<string name="cinema_wallpaper">更換桌布</string>
+<string name="cinema_local_image">選擇本機圖片</string>
+<string name="cinema_parallax">背景視差</string>
+<string name="cinema_focus_motion">焦點動畫</string>
+<string name="cinema_ambient">環境光</string>
+<string name="cinema_reflection">柔和倒影</string>
+<string name="cinema_recent_toggle">顯示最近使用</string>
+<string name="cinema_low_power">低效能模式</string>
+<string name="cinema_system_settings">系統設定</string>
+<string name="cinema_launcher_settings">原有 Launcher 設定</string>
+<string name="cinema_accent">App 環境光顏色</string>
+<string name="cinema_auto">自動</string>
+<string name="cinema_wallpaper_error">圖片無法讀取，已使用內建背景</string>
+<string name="cinema_image_unavailable">此裝置沒有可用的圖片選擇器</string>
+<string name="cinema_no_apps">尚無可顯示的應用程式，請開啟所有 App</string>
+<string name="cinema_no_search_results">找不到相符的已安裝應用程式</string>
+<string name="cinema_sound_on" translatable="false">● 開</string>
+<string name="cinema_sound_off" translatable="false">○ 關</string>
+<string name="cinema_sound_toggle_label" translatable="false">夢幻提示音                        %1$s\n移動焦點與確認選擇的柔和鈴聲</string>
+<string name="cinema_sound_volume_label" translatable="false">音效音量                        %1$d%%\n僅調整首頁提示音，不變更系統音量</string>
+</resources>

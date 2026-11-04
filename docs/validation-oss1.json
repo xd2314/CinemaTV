@@ -1,0 +1,45 @@
+{
+  "sourceVersion": "7.0-cinema-tv.oss.1",
+  "versionCode": 71,
+  "tests": {
+    "tests": 960,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 163,
+    "Information": 129
+  },
+  "releaseApk": {
+    "state": "UNSIGNED_EXPECTED",
+    "size": 3182762,
+    "sha256": "c0fb99e8f4458002f248db6561ec098b7ece00e8eefe859a8024e85d99706bf7"
+  },
+  "noInternetPermission": true,
+  "publicDeviceTest": "NOT_TESTED",
+  "privateProjectAndDeviceModified": false,
+  "freshPathBuild": {
+    "state": "PASS",
+    "tests": {
+      "tests": 960,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "lint": {
+      "Warning": 163,
+      "Information": 129
+    },
+    "sameUnsignedApkSha256OnThisHost": true,
+    "scope": "Extracted source ZIP; clean project build directories; existing external SDK/JDK/dependency cache; local macOS only"
+  },
+  "publicationTests": {
+    "tests": 9,
+    "failures": 0,
+    "errors": 0
+  },
+  "githubCI": "NOT_RUN",
+  "remotePublication": "NOT_REQUESTED_NOT_PERFORMED",
+  "privateV71SourceFilesUnchanged": 406
+}

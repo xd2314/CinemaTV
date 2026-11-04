@@ -1,0 +1,13 @@
+Cinema TV is independently maintained software derived from CleanYourTV.
+Upstream: https://github.com/Gathin23/cleanyourtv
+Copyright (c) 2026 Gathin. Upstream MIT license preserved in LICENSES/CleanYourTV-MIT.txt.
+Cinema TV modifications and original procedural assets: Copyright (c) 2026 Cinema TV contributors, MIT.
+The exact imported upstream commit was not recorded in the inherited snapshot; do not infer it from the current upstream main branch.
+
+Outfit font: The Outfit Project Authors, SIL Open Font License 1.1.
+Halloween Fluent Emoji derivatives: Microsoft Corporation, MIT.
+Gradle wrapper: original Gradle authors, Apache License 2.0; bundled JAR license preserved separately.
+AndroidX, build and test dependency notices: THIRD_PARTY_NOTICES.md and LICENSES/.
+
+Names and logos of external applications remain with their respective owners. Runtime app icons are read from installed applications; this source distribution does not bundle those applications, subscriptions, firmware, DRM keys or content.
+This project is not affiliated with or endorsed by the upstream project or device/media vendors.

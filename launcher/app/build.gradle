@@ -1,0 +1,87 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.gathin.tvhome'
+    compileSdk 34
+
+    defaultConfig {
+        // Retained historical application ID. See docs/BUILDING.md before choosing a custom ID.
+        applicationId providers.gradleProperty('launcherApplicationId').getOrElse('com.gathin.tvhome.cinemalite.dev')
+        minSdk 26
+        targetSdk 34
+        versionCode 73
+        versionName '7.0.0-beta.2-original-art'
+    }
+
+    // Optional private release signing. No key or password is stored in this repository.
+    def releaseValues = ['CINEMA_KEYSTORE_PATH', 'CINEMA_KEYSTORE_PASSWORD', 'CINEMA_KEY_ALIAS', 'CINEMA_KEY_PASSWORD'].collect { providers.environmentVariable(it).orNull }
+    if (releaseValues.any { it != null } && releaseValues.any { it == null || it.isEmpty() }) {
+        throw new GradleException('Supply all four CINEMA release signing environment values, or leave all unset')
+    }
+    def hasReleaseKey = releaseValues.every { it != null }
+    signingConfigs {
+        publicRelease {
+            if (hasReleaseKey) {
+                storeFile file(releaseValues[0])
+                storePassword releaseValues[1]
+                keyAlias releaseValues[2]
+                keyPassword releaseValues[3]
+            }
+        }
+    }
+
+    buildTypes {
+        // Debug uses the Android SDK local debug key, never the private Cinema TV release key.
+        debug {}
+        release {
+            // R8 strips and optimises the code (AndroidX included): smaller APK, faster start on a slow TV CPU.
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            // Unsigned by default; a maintainer may explicitly supply their own private key.
+            signingConfig hasReleaseKey ? signingConfigs.publicRelease : null
+        }
+    }
+
+    testOptions { unitTests.includeAndroidResources = true }
+
+    packagingOptions {
+        resources {
+            // Kotlin metadata pulled in by AndroidX's dependencies. This launcher is plain Java and never reads it;
+            // leaving it out saves about 14 KB of every install.
+            excludes += ['kotlin/**', 'META-INF/*.version', 'META-INF/*.kotlin_module', 'DebugProbesKt.bin']
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+    implementation 'androidx.dynamicanimation:dynamicanimation:1.0.0'
+    // Test only (never in the APK): plain JVM tests for the module card validators, src/test.
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.robolectric:robolectric:4.14.1'
+}
+
+// Local reporting only. No publication, credentials or device access.
+tasks.register('publicDependencyReport') {
+    doLast {
+        def result = [:]
+        ['releaseRuntimeClasspath', 'releaseUnitTestRuntimeClasspath'].each { name ->
+            result[name] = configurations.getByName(name).incoming.resolutionResult.allComponents
+                .findAll { it.id instanceof org.gradle.api.artifacts.component.ModuleComponentIdentifier }
+                .collect { [group: it.id.group, name: it.id.module, version: it.id.version] }
+                .sort { a, b -> "${a.group}:${a.name}:${a.version}" <=> "${b.group}:${b.name}:${b.version}" }
+        }
+        def target = layout.buildDirectory.file('public-dependencies.json').get().asFile
+        target.parentFile.mkdirs()
+        target.text = groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(result)) + '\n'
+        println 'Dependency coordinates written to app/build/public-dependencies.json'
+    }
+}

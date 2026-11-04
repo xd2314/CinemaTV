@@ -1,0 +1,11 @@
+name: Feature request / 功能建議
+description: Explain a TV remote user flow or accessibility need.
+body:
+  - type: textarea
+    attributes:
+      label: User problem and proposed remote-control flow
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Compatibility, performance and permission considerations

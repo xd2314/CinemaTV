@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cinema_network_offline">網路未連線</string>
+    <string name="cinema_network_unknown">網路狀態未知</string>
+    <string name="cinema_wifi_online">Wi-Fi 已連網</string>
+    <string name="cinema_wifi_limited">Wi-Fi · 外網未驗證</string>
+    <string name="cinema_ethernet_online">有線網路已連網</string>
+    <string name="cinema_ethernet_limited">有線 · 外網未驗證</string>
+    <string name="cinema_network_online">網路已連網</string>
+    <string name="cinema_network_limited">網路 · 外網未驗證</string>
+    <string name="cinema_network_settings">開啟網路設定</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ubox_home">Home</string>
+    <string name="ubox_all_apps">All apps</string>
+    <string name="ubox_network">Network</string>
+    <string name="ubox_movies">On demand</string>
+    <string name="ubox_apps">Apps</string>
+    <string name="ubox_live_description">Your familiar channels, one press away.</string>
+    <string name="ubox_movies_description">Open your app and choose what to watch.</string>
+    <string name="ubox_app_description">Open this app.</string>
+    <string name="ubox_hint">OK · Open     ↓ · More apps     Home · Original launcher</string>
+</resources>

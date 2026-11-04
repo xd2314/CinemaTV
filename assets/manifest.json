@@ -1,0 +1,229 @@
+{
+  "schema": 1,
+  "files": {
+    "docs/images/home-native-preview.png": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Native View preview with owner-authorized original artwork and synthetic sample applications; not a device capture",
+      "source": "launcher/app/src/test/java/com/gathin/tvhome/CinemaOriginalDistributionTest.java",
+      "size": 2500930,
+      "sha256": "e7429c98c23fe13928f6a0823611d623182e8f362a1f299bfb735ce31cb08a8f"
+    },
+    "docs/images/settings-native-preview.png": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Native View preview with owner-authorized original artwork and synthetic sample applications; not a device capture",
+      "source": "launcher/app/src/test/java/com/gathin/tvhome/CinemaOriginalDistributionTest.java",
+      "size": 881665,
+      "sha256": "51c06587f76e036e2cda3da1816fd0635bea354112a8da99a58a1db883ca3de7"
+    },
+    "launcher/app/src/main/res/drawable-nodpi/banner.jpg": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original project default artwork restored byte-for-byte from v71; owner attested generated/owned and authorized MIT redistribution; inherited upstream notices retained",
+      "source": "assets/original-artwork-permission.json",
+      "size": 4565,
+      "sha256": "839c222dd3b2408f955e9af2b1fd5c22314c8873768b55d941c743dcc49f89ef"
+    },
+    "launcher/app/src/main/res/drawable-nodpi/cinema_sunrise.jpg": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original project default artwork restored byte-for-byte from v71; owner attested generated/owned and authorized MIT redistribution; inherited upstream notices retained",
+      "source": "assets/original-artwork-permission.json",
+      "size": 567765,
+      "sha256": "3aa755b23fcb933d3a9d5abbd2f4c8811bae2c416cf26cfb9147cfb1d101a7c8"
+    },
+    "launcher/app/src/main/res/drawable-nodpi/halloween_bat.webp": {
+      "license": "MIT",
+      "licenseFile": "LICENSES/Fluent-Emoji-MIT.txt",
+      "origin": "Inherited resized Halloween assets; pumpkin lit/dark modifications documented in license notice",
+      "source": "https://github.com/microsoft/fluentui-emoji",
+      "size": 3728,
+      "sha256": "b15f02669d9f91b97ffb71b3cee76b572759e8b924bfa43620b22f24823960d6"
+    },
+    "launcher/app/src/main/res/drawable-nodpi/halloween_ghost.webp": {
+      "license": "MIT",
+      "licenseFile": "LICENSES/Fluent-Emoji-MIT.txt",
+      "origin": "Inherited resized Halloween assets; pumpkin lit/dark modifications documented in license notice",
+      "source": "https://github.com/microsoft/fluentui-emoji",
+      "size": 2720,
+      "sha256": "1f7773091b337ba2d9aebbc0f6ac9194b62a2705c281835a5c07c052deef104b"
+    },
+    "launcher/app/src/main/res/drawable-nodpi/halloween_pumpkin_dark.webp": {
+      "license": "MIT",
+      "licenseFile": "LICENSES/Fluent-Emoji-MIT.txt",
+      "origin": "Inherited resized Halloween assets; pumpkin lit/dark modifications documented in license notice",
+      "source": "https://github.com/microsoft/fluentui-emoji",
+      "size": 2814,
+      "sha256": "8ed04aa94d99d0fe7f204cf9005e236009d6fdd2c1573fb51b2f192d8533736b"
+    },
+    "launcher/app/src/main/res/drawable-nodpi/halloween_pumpkin_lit.webp": {
+      "license": "MIT",
+      "licenseFile": "LICENSES/Fluent-Emoji-MIT.txt",
+      "origin": "Inherited resized Halloween assets; pumpkin lit/dark modifications documented in license notice",
+      "source": "https://github.com/microsoft/fluentui-emoji",
+      "size": 2696,
+      "sha256": "8bc1348b4d5db7520e20719aa57895dbf32c7639dd5209b73fa7941c75d5dfdd"
+    },
+    "launcher/app/src/main/res/drawable-nodpi/season_autumn.jpg": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original project default artwork restored byte-for-byte from v71; owner attested generated/owned and authorized MIT redistribution; inherited upstream notices retained",
+      "source": "assets/original-artwork-permission.json",
+      "size": 133075,
+      "sha256": "084cbcdf27a1575e7788ec11fbdb3b4990b88e3737e5ba1fff4a48d1bcb4b8d3"
+    },
+    "launcher/app/src/main/res/drawable-nodpi/season_spring.jpg": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original project default artwork restored byte-for-byte from v71; owner attested generated/owned and authorized MIT redistribution; inherited upstream notices retained",
+      "source": "assets/original-artwork-permission.json",
+      "size": 143537,
+      "sha256": "9374ef920228240389e08b0c55750be07eef306edc1495697bc74e1223b9a841"
+    },
+    "launcher/app/src/main/res/drawable-nodpi/season_summer.jpg": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original project default artwork restored byte-for-byte from v71; owner attested generated/owned and authorized MIT redistribution; inherited upstream notices retained",
+      "source": "assets/original-artwork-permission.json",
+      "size": 142061,
+      "sha256": "1509a1c21c85781dc20b08a1775a93daa6576fc23deaa5f419573b1d1524de06"
+    },
+    "launcher/app/src/main/res/drawable-nodpi/season_winter.jpg": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original project default artwork restored byte-for-byte from v71; owner attested generated/owned and authorized MIT redistribution; inherited upstream notices retained",
+      "source": "assets/original-artwork-permission.json",
+      "size": 95251,
+      "sha256": "2ff534742e1e09f8913ba71363bba3543487d74475274210b5647d0be4db4da9"
+    },
+    "launcher/app/src/main/res/drawable-nodpi/theme_aurora_sunrise.jpg": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original project default artwork restored byte-for-byte from v71; owner attested generated/owned and authorized MIT redistribution; inherited upstream notices retained",
+      "source": "assets/original-artwork-permission.json",
+      "size": 356988,
+      "sha256": "0ce61446f899cc1d499cbbac8e5a7161d85731def5e545ef3fff53f76bf1e106"
+    },
+    "launcher/app/src/main/res/drawable-nodpi/theme_aurora_sunset.jpg": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original project default artwork restored byte-for-byte from v71; owner attested generated/owned and authorized MIT redistribution; inherited upstream notices retained",
+      "source": "assets/original-artwork-permission.json",
+      "size": 428213,
+      "sha256": "b48ffc0240e6ecdd48e92261aa7f86a13aa27a655ef5b8589752ee0584dfbbb1"
+    },
+    "launcher/app/src/main/res/drawable-nodpi/theme_autumn_sunrise.jpg": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original project default artwork restored byte-for-byte from v71; owner attested generated/owned and authorized MIT redistribution; inherited upstream notices retained",
+      "source": "assets/original-artwork-permission.json",
+      "size": 687452,
+      "sha256": "84ecd18be9991386eed34e4827d6bf3377c7be637a691c5e5b74bac00d044df3"
+    },
+    "launcher/app/src/main/res/drawable-nodpi/theme_autumn_sunset.jpg": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original project default artwork restored byte-for-byte from v71; owner attested generated/owned and authorized MIT redistribution; inherited upstream notices retained",
+      "source": "assets/original-artwork-permission.json",
+      "size": 710449,
+      "sha256": "5d76fe0296fc872737d879c08585b0fe1a743193846fe618b4e6b6183693f873"
+    },
+    "launcher/app/src/main/res/drawable-nodpi/theme_oled_sunrise.jpg": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original project default artwork restored byte-for-byte from v71; owner attested generated/owned and authorized MIT redistribution; inherited upstream notices retained",
+      "source": "assets/original-artwork-permission.json",
+      "size": 174341,
+      "sha256": "401d4bda10c4205fefcee510e9f5290b8a958d7bbfc103dc089e526abe11d0c2"
+    },
+    "launcher/app/src/main/res/drawable-nodpi/theme_oled_sunset.jpg": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original project default artwork restored byte-for-byte from v71; owner attested generated/owned and authorized MIT redistribution; inherited upstream notices retained",
+      "source": "assets/original-artwork-permission.json",
+      "size": 191541,
+      "sha256": "27b8593d7eab4293be339766732d9c81578d9b60f8e1857d184599ae8eed6c13"
+    },
+    "launcher/app/src/main/res/font/outfit.ttf": {
+      "license": "OFL-1.1",
+      "licenseFile": "LICENSES/Outfit-OFL-1.1.txt",
+      "origin": "Inherited original Outfit font",
+      "source": "https://github.com/Outfitio/Outfit-Fonts",
+      "size": 110884,
+      "sha256": "fc7287273e66929776e2ba54f144fe699080bec29f61bf649d70d871468aeade"
+    },
+    "launcher/app/src/main/res/mipmap-xhdpi/ic_launcher.jpg": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original project default artwork restored byte-for-byte from v71; owner attested generated/owned and authorized MIT redistribution; inherited upstream notices retained",
+      "source": "assets/original-artwork-permission.json",
+      "size": 3439,
+      "sha256": "6460d3b890488434417f50633b843af88914bdd82fb8f8c5488046e59c3af100"
+    },
+    "launcher/app/src/main/res/raw/cinema_autumn.jpg": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original project default artwork restored byte-for-byte from v71; owner attested generated/owned and authorized MIT redistribution; inherited upstream notices retained",
+      "source": "assets/original-artwork-permission.json",
+      "size": 78902,
+      "sha256": "a0333b2343dc21deb60819372d885941c4661420c1a2b5871bcc20edbb14adf1"
+    },
+    "launcher/app/src/main/res/raw/cinema_lake.png": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original project default artwork restored byte-for-byte from v71; owner attested generated/owned and authorized MIT redistribution; inherited upstream notices retained",
+      "source": "assets/original-artwork-permission.json",
+      "size": 2189205,
+      "sha256": "0ed6d3c522b4580c57e60aa564f5ffc70bb6702788690c54476199944afc7f23"
+    },
+    "launcher/app/src/main/res/raw/cinema_move.wav": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original synthetic audio, byte-for-byte reproduction verified",
+      "source": "launcher/tools/generate_cinema_sounds.py",
+      "size": 8424,
+      "sha256": "0954f8799dd67ea8495e6a20f68054c3099882d33df5f363889e7b5980f88f41"
+    },
+    "launcher/app/src/main/res/raw/cinema_oled.jpg": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original project default artwork restored byte-for-byte from v71; owner attested generated/owned and authorized MIT redistribution; inherited upstream notices retained",
+      "source": "assets/original-artwork-permission.json",
+      "size": 72980,
+      "sha256": "bac0a76ba155222e630157219320a2dba5f0e5c17152606c04ab11ba6a64a855"
+    },
+    "launcher/app/src/main/res/raw/cinema_select.wav": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Original synthetic audio, byte-for-byte reproduction verified",
+      "source": "launcher/tools/generate_cinema_sounds.py",
+      "size": 14156,
+      "sha256": "93f34bfe03b4c2071f176219cc49f43614eac7de1ff9d260c7d8bb7ad55e2969"
+    },
+    "launcher/app/src/test/resources/boot-assets/valid-sps.bin": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Synthetic solid-colour test media; not included in APK",
+      "source": "launcher/app/src/test/resources/boot-assets/README.txt",
+      "size": 30,
+      "sha256": "54131674b39f26c9fa2292a08fc3ed0ec3d300c2b2fac5c5a9663e1ada429ebb"
+    },
+    "launcher/app/src/test/resources/boot-assets/valid.mp4": {
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "origin": "Synthetic solid-colour test media; not included in APK",
+      "source": "launcher/app/src/test/resources/boot-assets/README.txt",
+      "size": 7941,
+      "sha256": "2842ccd638ae5199a02ea59db699a88ecc7ead979ea9cc9879268624996d4ad8"
+    },
+    "launcher/gradle/wrapper/gradle-wrapper.jar": {
+      "license": "Apache-2.0",
+      "licenseFile": "LICENSES/Gradle-wrapper-LICENSE.txt",
+      "origin": "Official Gradle8.9 wrapper checksum verified",
+      "source": "https://services.gradle.org/distributions/gradle-8.9-wrapper.jar.sha256",
+      "size": 43504,
+      "sha256": "498495120a03b9a6ab5d155f5de3c8f0d986a449153702fb80fc80e134484f17"
+    }
+  }
+}

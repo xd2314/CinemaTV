@@ -1,0 +1,66 @@
+{
+  "sourceVersion": "7.0.0-beta.2-original-art",
+  "versionCode": 73,
+  "tests": {
+    "tests": 960,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 163,
+    "Information": 129
+  },
+  "releaseApk": {
+    "state": "SIGNED_BETA_ORIGINAL_CERTIFICATE",
+    "size": 6763226,
+    "sha256": "d39ac24036d5ef7e15fa6de26320c7a85ad08f3c79ba3b6e02e9ecf0620403ed",
+    "certificateSha256": "e698b07fba7c263d9b92218b75262407f6874c3886146794395c5daad1345046"
+  },
+  "originalImageResources": {
+    "sourceCount": 16,
+    "allSourceAndApkImagesByteIdenticalToV71": true,
+    "ownerPermission": "OWNER_ATTESTED_MIT",
+    "physicalOriginalArtwork": "PASS_PO"
+  },
+  "physicalHome": "PASS_PO",
+  "navigation": "PASS_PO_ON_V72_SAME_NAVIGATION_CODE",
+  "fourAppSmoke": "PASS_PO",
+  "deviceInstall": "ONE_CORRECTIVE_UPDATE_72_TO_73_SUCCEEDED",
+  "permissionsUnchanged": true,
+  "noInternetPermission": true,
+  "freshPathBuild": {
+    "state": "PASS",
+    "tests": {
+      "tests": 960,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "lint": {
+      "Warning": 163,
+      "Information": 129
+    },
+    "signedApkPayloadMatchesCleanUnsignedBuild": true,
+    "payloadEntriesCompared": 92,
+    "scope": "All non-META-INF APK entries, including all original artwork, DEX, resources, assets and AndroidManifest"
+  },
+  "publicationTests": {
+    "tests": 10,
+    "failures": 0,
+    "errors": 0
+  },
+  "githubCI": "NOT_RUN",
+  "remotePublication": "NOT_PERFORMED",
+  "priorBeta1": "NO_GO_VISUAL_APPEARANCE_REJECTED",
+  "deviceSmoke": "PASS_PO_ORIGINAL_ART_HOME_FOUR_APPS",
+  "publicDeviceTest": "LIMITED_PO_OBSERVED_SMOKE_PASS",
+  "distribution": "GO_LIMITED_BETA_WITH_DOCUMENTED_GAPS",
+  "postSmokeReadout": {
+    "state": "ADB_DISCONNECTED_NOT_OBTAINED",
+    "errorHistory": "NOT_OBTAINED",
+    "memory": "NOT_OBTAINED",
+    "action": "STOPPED_NO_REPAIR_NO_REINSTALL_NO_REBOOT",
+    "physicalResultsKeptSeparate": true
+  }
+}
