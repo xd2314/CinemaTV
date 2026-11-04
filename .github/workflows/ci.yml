@@ -26,6 +26,6 @@ jobs:
           python3 tools/check_public_tree.py
           python3 -m unittest discover -s tests -v
       - name: Android SDK
-        run: sdkmanager "platforms;android-34" "build-tools;34.0.0"
+        run: '"$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-34" "build-tools;34.0.0"'
       - name: Test, lint and unsigned release build
-        run: python3 tools/build.py --unsigned
+        run: python3 tools/build.py --unsigned || { cat launcher/build/local-build.log; exit 1; }
