@@ -15,7 +15,7 @@
 
 人工結果見BETA2-ACCEPTANCE.md；機器、乾淨來源重建及封裝的最終數據見validation.json。960項App測試、10項發布工具測試、乾淨來源重建及簽署APK內容一致性均通過，支持小範圍側載Beta，不等於正式穩定版或所有機型通用。
 
-沒有重新開機、待機、Root、HOME指派、影音長測或原廠App／網路修改。其他機型、待機／重啟、長期、通用Root素材與韌體救援維持NOT TESTED。GitHub CI與上傳未執行，不自動公開。
+其他機型、待機、重啟、長期使用、Root 開機素材與韌體救援仍待驗證。GitHub 後續已公開 v73，並在修正 Android SDK 路徑後通過 `main` 的 Linux CI。[公開發布頁](https://github.com/xd2314/CinemaTV/releases/tag/v73-beta.2) · [CI 結果](https://github.com/xd2314/CinemaTV/actions/runs/41753303767)
 
 Beta1圖片外觀FAIL／NO_GO保留於BETA1-ACCEPTANCE.md，原APK／來源封存不改寫；Beta2修正結果另記。安裝與更新參考BETA2-INSTALLATION.md，保留原廠Launcher，不清資料或盲目降版。
 
